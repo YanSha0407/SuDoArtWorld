@@ -18,10 +18,14 @@ PODS:
     - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.7)
   - CHTCollectionViewWaterfallLayout/ObjC (0.9.7)
   - iCarousel (1.8.3)
+  - JTCalendar (2.2.5)
   - JXPagingView/Pager (1.1.19)
   - Masonry (1.1.0)
   - MJExtension (3.2.1)
   - MJRefresh (3.2.2)
+  - PPNetworkHelper (0.8.1):
+    - AFNetworking (~> 3.2.0)
+    - YYCache (~> 1.0.4)
   - QMUIKit (4.0.3):
     - QMUIKit/QMUIComponents (= 4.0.3)
     - QMUIKit/QMUICore (= 4.0.3)
@@ -319,15 +323,18 @@ PODS:
   - SVProgressHUD (2.2.5)
   - UIActivityIndicator-for-SDWebImage (1.2):
     - SDWebImage (~> 3.7)
+  - YYCache (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking
   - CHTCollectionViewWaterfallLayout
   - iCarousel
+  - JTCalendar
   - JXPagingView/Pager
   - Masonry
   - MJExtension
   - MJRefresh
+  - PPNetworkHelper
   - QMUIKit (~> 4.0.0-beta)
   - SDAutoLayout
   - SVProgressHUD
@@ -338,30 +345,36 @@ SPEC REPOS:
     - AFNetworking
     - CHTCollectionViewWaterfallLayout
     - iCarousel
+    - JTCalendar
     - JXPagingView
     - Masonry
     - MJExtension
     - MJRefresh
+    - PPNetworkHelper
     - QMUIKit
     - SDAutoLayout
     - SDWebImage
     - SVProgressHUD
     - UIActivityIndicator-for-SDWebImage
+    - YYCache
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   CHTCollectionViewWaterfallLayout: 9d11068fafecac106695bb5a5d6d0f738483b598
   iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  JTCalendar: 4056fd48735e1148b487acad35d72faea2387b25
   JXPagingView: d28c0e245b850cdb47e3f04c07d8c35e30c18531
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
   MJRefresh: 72a46ecaa2a0feaf48fc5198dff95f25f8bb27c6
+  PPNetworkHelper: e893191a73665e9c496c2887fd5ceece9e930bb8
   QMUIKit: 92b1ac5112562aa4a788d786940c3e84f054aa1e
   SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
   SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 973bd03813b3cb27efdb14f24a6f177c0b61d8e9
+PODFILE CHECKSUM: a9f81c7994be9e9c14d3491e4a63343e5fc7911b
 
 COCOAPODS: 1.7.5

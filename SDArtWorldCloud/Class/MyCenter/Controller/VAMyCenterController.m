@@ -35,12 +35,13 @@
         _mytableView.tableHeaderView = self.mytableHeaderView;
         _mytableView.tableFooterView = [[UIView alloc]init];
         _mytableView.separatorColor = VASeparatorColor;
+        _mytableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     }
     return _mytableView;
 }
 -(VAMyTableHeaderView *)mytableHeaderView{
     if (!_mytableHeaderView) {
-        _mytableHeaderView = [[VAMyTableHeaderView alloc]initWithFrame:CGRectMake(0, 0, KSystemWidth, 120)];
+        _mytableHeaderView = [[VAMyTableHeaderView alloc]initWithFrame:CGRectMake(0, 0, KSystemWidth, 160)];
         _mytableHeaderView.VADelegate = self;
     }
     return _mytableHeaderView;

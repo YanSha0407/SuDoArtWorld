@@ -25,6 +25,12 @@
 		E50D0D5B2382648100736223 /* VAPredicateMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D0D462382648100736223 /* VAPredicateMethod.m */; };
 		E50D0D5C2382648100736223 /* VAPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D0D472382648100736223 /* VAPlaceholderTextView.m */; };
 		E50D0D5D2382648100736223 /* VALoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D0D4C2382648100736223 /* VALoginController.m */; };
+		E51743942385660300A7F050 /* VACategoryRightCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E517438C2385660200A7F050 /* VACategoryRightCollectionView.m */; };
+		E51743952385660300A7F050 /* VACategoryRightCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E517438E2385660200A7F050 /* VACategoryRightCollectionCell.m */; };
+		E51743962385660300A7F050 /* VACategoryLeftTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E517438F2385660200A7F050 /* VACategoryLeftTableCell.m */; };
+		E51743972385660300A7F050 /* VACategoryLeftTabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E51743902385660200A7F050 /* VACategoryLeftTabelView.m */; };
+		E517439D238567CC00A7F050 /* VACategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = E517439C238567CC00A7F050 /* VACategoryController.m */; };
+		E5B6CF3B23879E4900A9B6B4 /* VATeacherPlanController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B6CF3A23879E4900A9B6B4 /* VATeacherPlanController.m */; };
 		E5BCB2212382896200EAF717 /* ZFPlayerGestureControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB1E72382896200EAF717 /* ZFPlayerGestureControl.m */; };
 		E5BCB2222382896200EAF717 /* ZFPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB1E82382896200EAF717 /* ZFPlayerController.m */; };
 		E5BCB2232382896200EAF717 /* ZFOrientationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB1EB2382896200EAF717 /* ZFOrientationObserver.m */; };
@@ -52,7 +58,8 @@
 		E5BCB2392382896200EAF717 /* ZFPortraitControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB21A2382896200EAF717 /* ZFPortraitControlView.m */; };
 		E5BCB23A2382896200EAF717 /* UIImageView+ZFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB21B2382896200EAF717 /* UIImageView+ZFCache.m */; };
 		E5BCB23B2382896200EAF717 /* KSMediaPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB21F2382896200EAF717 /* KSMediaPlayerManager.m */; };
-		E5BCB23D238289D700EAF717 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BCB23C238289D700EAF717 /* main.storyboard */; };
+		E5BCB23F23828A6A00EAF717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BCB23E23828A6A00EAF717 /* Main.storyboard */; };
+		E5BCB25C2382992E00EAF717 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB25B2382992E00EAF717 /* UIButton+Extension.m */; };
 		E5F7194B2382763D007DE9C1 /* LQPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F718CB2382763C007DE9C1 /* LQPickerView.m */; };
 		E5F7194C2382763D007DE9C1 /* LQCityPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F718CC2382763C007DE9C1 /* LQCityPicker.m */; };
 		E5F7194D2382763D007DE9C1 /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5F718CE2382763C007DE9C1 /* Address.plist */; };
@@ -156,6 +163,18 @@
 		E50D0D482382648100736223 /* VAPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAPhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		E50D0D4B2382648100736223 /* VALoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VALoginController.h; sourceTree = "<group>"; };
 		E50D0D4C2382648100736223 /* VALoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VALoginController.m; sourceTree = "<group>"; };
+		E517438C2385660200A7F050 /* VACategoryRightCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VACategoryRightCollectionView.m; sourceTree = "<group>"; };
+		E517438D2385660200A7F050 /* VACategoryRightCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VACategoryRightCollectionView.h; sourceTree = "<group>"; };
+		E517438E2385660200A7F050 /* VACategoryRightCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VACategoryRightCollectionCell.m; sourceTree = "<group>"; };
+		E517438F2385660200A7F050 /* VACategoryLeftTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VACategoryLeftTableCell.m; sourceTree = "<group>"; };
+		E51743902385660200A7F050 /* VACategoryLeftTabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VACategoryLeftTabelView.m; sourceTree = "<group>"; };
+		E51743912385660300A7F050 /* VACategoryRightCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VACategoryRightCollectionCell.h; sourceTree = "<group>"; };
+		E51743922385660300A7F050 /* VACategoryLeftTabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VACategoryLeftTabelView.h; sourceTree = "<group>"; };
+		E51743932385660300A7F050 /* VACategoryLeftTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VACategoryLeftTableCell.h; sourceTree = "<group>"; };
+		E517439B238567CC00A7F050 /* VACategoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VACategoryController.h; sourceTree = "<group>"; };
+		E517439C238567CC00A7F050 /* VACategoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VACategoryController.m; sourceTree = "<group>"; };
+		E5B6CF3923879E4900A9B6B4 /* VATeacherPlanController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VATeacherPlanController.h; sourceTree = "<group>"; };
+		E5B6CF3A23879E4900A9B6B4 /* VATeacherPlanController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VATeacherPlanController.m; sourceTree = "<group>"; };
 		E5BCB1E62382896200EAF717 /* ZFPlayerNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerNotification.h; sourceTree = "<group>"; };
 		E5BCB1E72382896200EAF717 /* ZFPlayerGestureControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerGestureControl.m; sourceTree = "<group>"; };
 		E5BCB1E82382896200EAF717 /* ZFPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerController.m; sourceTree = "<group>"; };
@@ -211,7 +230,9 @@
 		E5BCB21D2382896200EAF717 /* ZFLandScapeControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFLandScapeControlView.h; sourceTree = "<group>"; };
 		E5BCB21F2382896200EAF717 /* KSMediaPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMediaPlayerManager.m; sourceTree = "<group>"; };
 		E5BCB2202382896200EAF717 /* KSMediaPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMediaPlayerManager.h; sourceTree = "<group>"; };
-		E5BCB23C238289D700EAF717 /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		E5BCB23E23828A6A00EAF717 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E5BCB25A2382992E00EAF717 /* UIButton+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		E5BCB25B2382992E00EAF717 /* UIButton+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
 		E5F718CB2382763C007DE9C1 /* LQPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQPickerView.m; sourceTree = "<group>"; };
 		E5F718CC2382763C007DE9C1 /* LQCityPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQCityPicker.m; sourceTree = "<group>"; };
 		E5F718CD2382763C007DE9C1 /* LQPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQPickerView.h; sourceTree = "<group>"; };
@@ -374,6 +395,7 @@
 		E50D0D242382648100736223 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				E5B6CF3523879DF600A9B6B4 /* TeacherPlan */,
 				E50D0D252382648100736223 /* Course */,
 				E50D0D2F2382648100736223 /* MyCenter */,
 				E50D0D492382648100736223 /* Login */,
@@ -398,6 +420,8 @@
 				E50D0D292382648100736223 /* VACourseController.m */,
 				E50D0D2A2382648100736223 /* VACourseDetailController.h */,
 				E50D0D282382648100736223 /* VACourseDetailController.m */,
+				E517439B238567CC00A7F050 /* VACategoryController.h */,
+				E517439C238567CC00A7F050 /* VACategoryController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -502,6 +526,54 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E517438B238565E300A7F050 /* 分表联动 */ = {
+			isa = PBXGroup;
+			children = (
+				E51743922385660300A7F050 /* VACategoryLeftTabelView.h */,
+				E51743902385660200A7F050 /* VACategoryLeftTabelView.m */,
+				E51743932385660300A7F050 /* VACategoryLeftTableCell.h */,
+				E517438F2385660200A7F050 /* VACategoryLeftTableCell.m */,
+				E51743912385660300A7F050 /* VACategoryRightCollectionCell.h */,
+				E517438E2385660200A7F050 /* VACategoryRightCollectionCell.m */,
+				E517438D2385660200A7F050 /* VACategoryRightCollectionView.h */,
+				E517438C2385660200A7F050 /* VACategoryRightCollectionView.m */,
+			);
+			path = "分表联动";
+			sourceTree = "<group>";
+		};
+		E5B6CF3523879DF600A9B6B4 /* TeacherPlan */ = {
+			isa = PBXGroup;
+			children = (
+				E5B6CF3823879E1100A9B6B4 /* Controller */,
+				E5B6CF3723879E0700A9B6B4 /* Model */,
+				E5B6CF3623879E0000A9B6B4 /* View */,
+			);
+			path = TeacherPlan;
+			sourceTree = "<group>";
+		};
+		E5B6CF3623879E0000A9B6B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5B6CF3723879E0700A9B6B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5B6CF3823879E1100A9B6B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5B6CF3923879E4900A9B6B4 /* VATeacherPlanController.h */,
+				E5B6CF3A23879E4900A9B6B4 /* VATeacherPlanController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		E5BCB1E32382896200EAF717 /* ZFPlayer */ = {
@@ -614,9 +686,20 @@
 			path = KSYMediaPlayer;
 			sourceTree = "<group>";
 		};
+		E5BCB258238298C400EAF717 /* Extensiones */ = {
+			isa = PBXGroup;
+			children = (
+				E5BCB25A2382992E00EAF717 /* UIButton+Extension.h */,
+				E5BCB25B2382992E00EAF717 /* UIButton+Extension.m */,
+			);
+			path = Extensiones;
+			sourceTree = "<group>";
+		};
 		E5F718C92382763C007DE9C1 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				E517438B238565E300A7F050 /* 分表联动 */,
+				E5BCB258238298C400EAF717 /* Extensiones */,
 				E5BCB1E32382896200EAF717 /* ZFPlayer */,
 				E5F718CA2382763C007DE9C1 /* AddressPickView */,
 				E5F718E02382763D007DE9C1 /* Network */,
@@ -772,8 +855,8 @@
 			children = (
 				E5F719242382763D007DE9C1 /* AppDelegate.h */,
 				E5F719292382763D007DE9C1 /* AppDelegate.m */,
+				E5BCB23E23828A6A00EAF717 /* Main.storyboard */,
 				E5F719252382763D007DE9C1 /* LaunchScreen.storyboard */,
-				E5BCB23C238289D700EAF717 /* main.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -838,8 +921,8 @@
 		E5F7193D2382763D007DE9C1 /* ImageScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				E5F7193E2382763D007DE9C1 /* YSImageScrollView.m */,
 				E5F7193F2382763D007DE9C1 /* YSImageScrollView.h */,
+				E5F7193E2382763D007DE9C1 /* YSImageScrollView.m */,
 			);
 			path = ImageScrollView;
 			sourceTree = "<group>";
@@ -987,8 +1070,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5BCB23F23828A6A00EAF717 /* Main.storyboard in Resources */,
 				E5BCB2332382896200EAF717 /* ZFPlayer.bundle in Resources */,
-				E5BCB23D238289D700EAF717 /* main.storyboard in Resources */,
 				E50D0CFA2382638900736223 /* Assets.xcassets in Resources */,
 				E5F719742382763D007DE9C1 /* iconfont.ttf in Resources */,
 				E5F719712382763D007DE9C1 /* LaunchScreen.storyboard in Resources */,
@@ -1067,9 +1150,11 @@
 				E5F719792382763D007DE9C1 /* TLUIUtility.m in Sources */,
 				E5F719692382763D007DE9C1 /* ZFSliderView.m in Sources */,
 				E5F7195B2382763D007DE9C1 /* ZFPlayerNotification.m in Sources */,
+				E5BCB25C2382992E00EAF717 /* UIButton+Extension.m in Sources */,
 				E5F7196A2382763D007DE9C1 /* ZFPlayerControlView.m in Sources */,
 				E5F719782382763D007DE9C1 /* UIAlertView+ActionBlocks.m in Sources */,
 				E5BCB22D2382896200EAF717 /* ZFAVPlayerManager.m in Sources */,
+				E51743942385660300A7F050 /* VACategoryRightCollectionView.m in Sources */,
 				E5BCB2252382896200EAF717 /* UIScrollView+ZFPlayer.m in Sources */,
 				E50D0D572382648100736223 /* VAUserInfoCell.m in Sources */,
 				E5F7195E2382763D007DE9C1 /* ZFKVOController.m in Sources */,
@@ -1077,6 +1162,7 @@
 				E50D0D582382648100736223 /* VAPhotoCollectionViewCell.m in Sources */,
 				E5F719762382763D007DE9C1 /* VATabBarController.m in Sources */,
 				E50D0D562382648100736223 /* VAUserInfoModel.m in Sources */,
+				E517439D238567CC00A7F050 /* VACategoryController.m in Sources */,
 				E5F7194B2382763D007DE9C1 /* LQPickerView.m in Sources */,
 				E5BCB2282382896200EAF717 /* ZFPlayerView.m in Sources */,
 				E5BCB2392382896200EAF717 /* ZFPortraitControlView.m in Sources */,
@@ -1085,6 +1171,7 @@
 				E50D0D552382648100736223 /* VAMyCenterController.m in Sources */,
 				E5F7195A2382763D007DE9C1 /* UIScrollView+ZFPlayer.m in Sources */,
 				E5BCB2232382896200EAF717 /* ZFOrientationObserver.m in Sources */,
+				E51743952385660300A7F050 /* VACategoryRightCollectionCell.m in Sources */,
 				E5F7195D2382763D007DE9C1 /* ZFPlayerView.m in Sources */,
 				E5F719612382763D007DE9C1 /* ZFIJKPlayerManager.m in Sources */,
 				E5F719582382763D007DE9C1 /* ZFOrientationObserver.m in Sources */,
@@ -1092,6 +1179,7 @@
 				E5F719542382763D007DE9C1 /* VASystemDeviceInfo.m in Sources */,
 				E5F7195C2382763D007DE9C1 /* ZFFloatView.m in Sources */,
 				E5F719652382763D007DE9C1 /* ZFVolumeBrightnessView.m in Sources */,
+				E51743962385660300A7F050 /* VACategoryLeftTableCell.m in Sources */,
 				E5BCB22C2382896200EAF717 /* ZFIJKPlayerManager.m in Sources */,
 				E5BCB23B2382896200EAF717 /* KSMediaPlayerManager.m in Sources */,
 				E5F719602382763D007DE9C1 /* UIViewController+ZFPlayerRotation.m in Sources */,
@@ -1117,8 +1205,10 @@
 				E5F7196B2382763D007DE9C1 /* ZFSmallFloatControlView.m in Sources */,
 				E5F719672382763D007DE9C1 /* ZFNetworkSpeedMonitor.m in Sources */,
 				E5F7197B2382763D007DE9C1 /* YSImageScrollView.m in Sources */,
+				E51743972385660300A7F050 /* VACategoryLeftTabelView.m in Sources */,
 				E5F719772382763D007DE9C1 /* UIWindow+Extensions.m in Sources */,
 				E5F719592382763D007DE9C1 /* ZFPlayerLogManager.m in Sources */,
+				E5B6CF3B23879E4900A9B6B4 /* VATeacherPlanController.m in Sources */,
 				E5F719662382763D007DE9C1 /* ZFLandScapeControlView.m in Sources */,
 				E5F719732382763D007DE9C1 /* AppDelegate.m in Sources */,
 				E5BCB2382382896200EAF717 /* ZFSpeedLoadingView.m in Sources */,

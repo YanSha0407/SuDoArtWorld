@@ -21,6 +21,14 @@ a;  \
 #define KClipsCornerRadius(clipsView,radius) clipsView.layer.cornerRadius = radius;clipsView.clipsToBounds = YES
 #define KSystemWidth  [UIScreen mainScreen].bounds.size.width
 #define KSystemHeight [UIScreen mainScreen].bounds.size.height
+#define NavigateHeight (KSystemWidth == 812.0 ? 88 : 64)
+#define TabBarHeight (KSystemWidth == 812.0 ? 83 : 49)
 /// URL
 #define VAURL(urlString)     [NSURL URLWithString:urlString]
+/// URL
+#define VAImage(urlString)     [UIImage imageNamed:urlString]
+
+#define KImageViewURl(imageView,url)  [imageView sd_setImageWithURL:VAURL(url) placeholderImage:[UIImage qmui_imageWithColor:VAGrayUnUseColor]];
+
+ 
 #endif /* VAKeyWordDefine_h */

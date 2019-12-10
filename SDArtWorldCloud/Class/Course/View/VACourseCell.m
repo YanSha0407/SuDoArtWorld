@@ -75,8 +75,8 @@
         _coursePrice = [[UILabel alloc]init];
         _coursePrice.text = @"价格";
         _coursePrice.textAlignment = NSTextAlignmentLeft;
-        _coursePrice.font = VAMainTitleFont;
-        _coursePrice.textColor = VAMainTitleColor;
+        _coursePrice.font = VASubTitleFont;
+        _coursePrice.textColor = VASubTitleColor;
     }
     return _coursePrice;
 }
@@ -85,8 +85,8 @@
         _courseCount = [[UILabel alloc]init];
         _courseCount.text = @"观看数";
         _courseCount.textAlignment = NSTextAlignmentRight;
-        _courseCount.font = VAMainTitleFont;
-        _courseCount.textColor = VAMainTitleColor;
+        _courseCount.font = VASubTitleFont;
+        _courseCount.textColor = VASubTitleColor;
     }
     return _courseCount;
 }

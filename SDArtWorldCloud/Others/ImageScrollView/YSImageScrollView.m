@@ -7,6 +7,7 @@
 //
 
 #import "YSImageScrollView.h"
+#define VAImageScrollViewHight 120
 @interface YSImageScrollView()<iCarouselDataSource,iCarouselDelegate>
 
 @end
@@ -22,15 +23,9 @@
         [_timer invalidate];
         // 当前没有头部滚动视图, 返回空对象nil
         if (!number) return nil;
-        
         //头部视图origin无效,宽度无效,肯定是与table同宽
         if (number) {
-//          if (IS_PAD) {
-            self.frame = CGRectMake(0, -1,KSystemWidth, KSystemWidth *9 /16); // 660*210
-//          }
-//          else{
-//            self.frame = CGRectMake(0, -1,KSystemWidth, KSystemWidth *9 /16); // 660*210
-//          }
+            self.frame = CGRectMake(0, 0, KSystemWidth, VAImageScrollViewHight);
         }
         // 添加滚动栏
         _ic = [iCarousel new];
@@ -49,9 +44,10 @@
         _ic.delegate = self;
         _ic.dataSource = self;
         [_pageControl mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.right.centerX.mas_equalTo(0);
+            make.centerX.mas_equalTo(self.centerX);
             make.bottom.mas_equalTo(-6);
             make.height.mas_equalTo(10);
+            make.left.right.mas_equalTo(0);
         }];
         // 如果只有一张图,则不显示圆点
         _pageControl.hidesForSinglePage = YES;
@@ -60,7 +56,6 @@
         // 小圆点颜色设置
         _pageControl.pageIndicatorTintColor = [UIColor lightTextColor];
         _pageControl.currentPageIndicatorTintColor = [UIColor whiteColor];
-        
         // 计时器产生,开启滚动
         if (number > 1) {
             _timer = [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(action) userInfo:nil repeats:YES];
@@ -75,13 +70,13 @@
 
 #pragma mark - iCarousel代理方法
 - (NSInteger)numberOfItemsInCarousel:(iCarousel *)carousel {
-    return self.bannerMutableArray.count;
+    return 3;
+//    return self.bannerMutableArray.count;
 }
 - (UIView *)carousel:(iCarousel *)carousel viewForItemAtIndex:(NSInteger)index reusingView:(nullable UIView *)view {
     UIImageView *imgView = nil;
-    CGRect frame = CGRectMake(0, -1,KSystemWidth, KSystemWidth *9 / 16); // 660*210
     if (!view) {
-        view = [[UIView alloc] initWithFrame:frame]; //660*210
+        view = [[UIView alloc] initWithFrame:self.frame]; //660*210
         imgView = [UIImageView new];
         [view addSubview:imgView];
         imgView.tag = 100;
@@ -92,9 +87,11 @@
         }];
     }
     imgView = (UIImageView *)[view viewWithTag:100];
+    [imgView sd_setImageWithURL:[NSURL URLWithString:@"https://himg2.huanqiucdn.cn/attachment2010/2019/1120/20191120050413747.jpg"] placeholderImage:nil];
+    
     if (self.bannerMutableArray.count) {
-//        YSBannerModel *model=self.bannerMutableArray[index];
-//        [imgView sd_setImageWithURL:[NSURL URLWithString:model.thumbs_image] placeholderImage:YSPlaceholderImage];
+//      YSBannerModel *model=self.bannerMutableArray[index];
+//     [imgView sd_setImageWithURL:[NSURL URLWithString:model.thumbs_image] placeholderImage:YSPlaceholderImage];
     }
     return view;
 }

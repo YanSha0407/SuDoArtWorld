@@ -17,7 +17,7 @@
 #define VAMainBgGrayColor RGBColor(241, 241, 241) // app灰色背景色
 
 //灰色不可用色
-#define VAGrayUnUseColor RGBColor(150, 250, 250) // 灰色不可用色
+#define VAGrayUnUseColor RGBColor(245, 245, 245) // 灰色不可用色
 // app主字Label体颜色
 #define VAMainTitleColor UIColorGray3 //app主字Label体颜色
 // 主体字体大小
